@@ -23,7 +23,7 @@
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.GenreId)
-        @Html.DropDownListFor(m => m.GenreId, new SelectList(Model.Genres, "Id", "Name"), "Select MemberShip Type", new { @class = "form-control" })
+        @Html.DropDownListFor(m => m.GenreId, new SelectList(Model.Genres, "Id", "Name"), "Select Genre Type", new { @class = "form-control" })
         @Html.ValidationMessageFor(m => m.GenreId)
     </div>
     <div class="form-group">
